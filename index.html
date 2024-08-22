@@ -1,11 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interio-A3</title>
+    <title>Rinterio-A3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-bg': '#ABEF5F',
+                'btn-text': '#1C1C1C',
+                'p-title': '#212121',
+                'p-text': '#494949',
+                's-text': '#737373',
+                'p-bg': '#f4f4f4',
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+    .font-manrope{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+    </style>
 </head>
-<body>
-    
+<body class="bg-p-bg font-manrope">
+    <header class="bg-gradient-to-b from-transparent to-white pt-6 lg:pt-12">
+      <!-- navbar -->
+       <nav>
+        <div class="navbar justify-between container mx-auto">
+          <div class="">
+            <button class="flex text-p-title font-black text-3xl items-center">
+              <div class="p-2 bg-btn-bg text-btn-text rounded-full mr-2">
+                <!-- icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                
+              </div>Rinterio
+            </button>
+          </div>
+          <div class="hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-s-text text-base font-normal">
+              <li class="font-black text-p-text"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="flex space-x-4 items-center justify-end">
+            <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full hidden lg:block">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>                
+            </div>
+            <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full lg:block hidden">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>                              
+            </div>
+            <button class="py-3 px-5 hidden lg:flex text-btn-text font-black text-xl bg-btn-bg rounded-full items-center">Book Consult
+              <div class="p-2 bg-btn-text text-white rounded-full ml-2">
+                <!-- icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>                
+              </div>
+            </button>
+            <div class="dropdown dropdown-end lg:hidden">
+              <div tabindex="0" role="button" class="p-3 bg-white text-s-text border border-[#E9E9E9] rounded-full lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>                
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-s-text text-base font-normal">
+                <li class="font-black text-p-text"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </nav>
+      <!-- hero -->
+       
+    </header>
 </body>
 </html>
