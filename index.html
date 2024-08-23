@@ -38,346 +38,258 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header class="bg-gradient-to-b from-transparent to-white pt-6 lg:pt-12">
-      <!-- navbar -->
-       <nav>
-        <div class="navbar justify-between container mx-auto">
-          <div class="">
-            <button class="flex text-p-title font-black text-3xl items-center">
-              <div class="p-2 bg-btn-bg text-btn-text rounded-full mr-2">
-                <!-- icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>                
-              </div>Rinterio
-            </button>
-          </div>
-          <div class="hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-s-text text-base font-normal">
-              <li class="font-black text-p-text"><a>Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="flex space-x-4 items-center justify-end">
-            <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full hidden lg:block">
+  <header class="bg-gradient-to-b from-transparent to-white pt-6 lg:pt-12">
+    <!-- navbar -->
+      <nav>
+      <div class="navbar justify-between container mx-auto">
+        <div class="">
+          <button class="flex text-p-title font-black text-3xl items-center">
+            <div class="p-2 bg-btn-bg text-btn-text rounded-full mr-2">
               <!-- icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>                
+            </div>Rinterio
+          </button>
+        </div>
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-s-text text-base font-normal">
+            <li class="font-black text-p-text"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex space-x-4 items-center justify-end">
+          <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full hidden lg:block">
+            <!-- icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>                
+          </div>
+          <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full lg:block hidden">
+            <!-- icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>                              
+          </div>
+          <button class="py-3 px-5 hidden lg:flex text-btn-text font-black text-xl bg-btn-bg rounded-full items-center">Book Consult
+            <div class="p-2 bg-btn-text text-white rounded-full ml-2">
+              <!-- icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>                
             </div>
-            <div class="p-[10px] bg-white text-s-text border border-[#E9E9E9] rounded-full lg:block hidden">
-              <!-- icon -->
+          </button>
+          <div class="dropdown dropdown-end lg:hidden">
+            <div tabindex="0" role="button" class="p-3 bg-white text-s-text border border-[#E9E9E9] rounded-full lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-              </svg>                              
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>                
             </div>
-            <button class="py-3 px-5 hidden lg:flex text-btn-text font-black text-xl bg-btn-bg rounded-full items-center">Book Consult
-              <div class="p-2 bg-btn-text text-white rounded-full ml-2">
-                <!-- icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>                
-              </div>
-            </button>
-            <div class="dropdown dropdown-end lg:hidden">
-              <div tabindex="0" role="button" class="p-3 bg-white text-s-text border border-[#E9E9E9] rounded-full lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>                
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-s-text text-base font-normal">
-                <li class="font-black text-p-text"><a>Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-       </nav>
-      <!-- hero -->
-      <div class="container mx-auto px-3 pb-10 lg:pb-24">
-        <div class="card">
-          <figure class="pt-8 px-9 lg:px-0">
-            <img
-              src="./assets/banner.png"
-              alt="Shoes"
-              class="rounded-xl lg:max-w-xl" />
-          </figure>
-          <div class="flex-col items-center text-center p-0 lg:p-8 mt-6 lg:mt-0">
-            <h2 class="font-black text-3xl lg:text-6xl text-p-title">A barn house of this design has a striking appearance</h2>
-            <p class="px-0 lg:px-14 font-medium text-p-text text-sm lg:text-base my-3 lg:my-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-            
-            <button class="py-3 px-5 w-full lg:w-fit flex text-p-title font-black text-xl bg-btn-bg/50 rounded-full items-center justify-center border border-btn-bg lg:mx-auto">View Details
-              <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                <!-- icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>                
-              </div>
-            </button>
-          </div>
-        </div>
-       </div>
-    </header>
-    <main >
-      <!-- design section -->
-      <section class="container mx-auto px-3">
-          <div class=" lg:py-24 py-8 relative">
-            <img src="./assets/Vector.png" alt="" class="w-16 hidden lg:block absolute top-16 -left-5">
-            <div class="lg:flex justify-between gap-10">
-              <!-- hero content --> 
-              <div class="flex-1 text-center lg:text-left">
-                <button class="py-2 px-4 flex text-p-text font-bold text-base bg-white rounded-full items-center gap-2 mb-6 mx-auto lg:mx-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                </svg>
-                About Us
-                </button>
-                <h1 class="lg:text-4xl text-3xl text-p-title font-bold ">We design thoughtful,<br> liveable spaces</h1>
-                <p class="py-6 text-p-text font-medium text-sm lg:text-base lg:max-w-xl">
-                  Crafting beautiful, functional spaces that reflect your personality, ensuring comfort and style in every detail.
-                </p>
-                <!-- card -->
-                <div class="lg:p-6 p-5 rounded-2xl flex gap-6 bg-white shadow-sm">
-                  <figure>
-                    <img
-                      src="./assets/commercial.png"
-                      alt="Movie" class="w-16 shrink-0"/>
-                  </figure>
-                  <div class="space-y-2 text-left">
-                    <h2 class="font-black text-base lg:text-xl text-p-text">Commercial</h2>
-                    <p class="font-medium text-base text-s-text lg:max-w-80">Designing efficient, stylish commercial spaces.</p>
-                  </div>
-                </div>
-                <!-- card -->
-                <div class="lg:p-6 p-5 rounded-2xl flex gap-6 bg-white shadow-sm mt-6">
-                  <figure>
-                    <img
-                      src="./assets/residential.png"
-                      alt="Movie" class="w-16 shrink-0"/>
-                  </figure>
-                  <div class="space-y-2 text-left">
-                    <h2 class="font-black text-base lg:text-xl text-p-text">Residential</h2>
-                    <p class="font-medium text-base text-s-text lg:max-w-80">We design homes that reflect your style and comfort.</p>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="./assets/Rectangle.png"
-                class="h-56 lg:h-full w-full object-cover rounded-lg lg:max-w-xl mt-6 lg:mt-0" />
-            </div>
-          </div>
-      </section>
-      <!-- info chart -->
-      <section class="container mx-auto px-3">
-      <div class="p-8 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-4">
-        <!-- card -->
-        <div class="card p-6">
-          <figure class="pt-10">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-s-text">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
-            </svg>              
-          </figure>
-          <div class="card-body items-center text-center p-0">
-            <h2 class="card-title font-black text-4xl text-p-text mt-2">235+</h2>
-            <p class="font-medium text-s-text">Happy Client Review</p>
-          </div>
-        </div>
-        <!-- card -->
-        <div class="card p-6">
-          <figure class="pt-10">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-s-text">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
-            </svg>                        
-          </figure>
-          <div class="card-body items-center text-center p-0">
-            <h2 class="card-title font-black text-4xl text-p-text mt-2">50+</h2>
-            <p class="font-medium text-s-text">Work Departments</p>
-          </div>
-        </div>
-        <!-- card -->
-        <div class="card p-6">
-          <figure class="pt-10">
-              <i class="fa-solid fa-users text-s-text text-4xl"></i>              
-          </figure>
-          <div class="card-body items-center text-center p-0">
-            <h2 class="card-title font-black text-4xl text-p-text mt-2">30k+</h2>
-            <p class="font-medium text-s-text">Our Happy Client</p>
-          </div>
-        </div>
-        <!-- card -->
-        <div class="card p-6">
-          <figure class="pt-10">
-            <i class="fa-solid fa-user text-s-text text-4xl"></i>
-          </figure>
-          <div class="card-body items-center text-center p-0">
-            <h2 class="card-title font-black text-4xl text-p-text mt-2">307+</h2>
-            <p class="font-medium text-s-text">Staff Members</p>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-s-text text-base font-normal">
+              <li class="font-black text-p-text"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      </section>
-       <!-- work process -->
-      <section class="lg:my-20 my-8 container mx-auto px-3">
-        <!-- title box -->
-        <div class="card">
-          <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
-            <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-white rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+      </nav>
+    <!-- hero -->
+    <div class="container mx-auto px-3 pb-10 lg:pb-24">
+      <div class="card">
+        <figure class="pt-8 px-9 lg:px-0">
+          <img
+            src="./assets/banner.png"
+            alt="Shoes"
+            class="rounded-xl lg:max-w-xl" />
+        </figure>
+        <div class="flex-col items-center text-center p-0 lg:p-8 mt-6 lg:mt-0">
+          <h2 class="font-black text-3xl lg:text-6xl text-p-title">A barn house of this design has a striking appearance</h2>
+          <p class="px-0 lg:px-14 font-medium text-p-text text-sm lg:text-base my-3 lg:my-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          
+          <button class="py-3 px-5 w-full lg:w-fit flex text-p-title font-black text-xl bg-btn-bg/50 rounded-full items-center justify-center border border-btn-bg lg:mx-auto">View Details
+            <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+              <!-- icon -->
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-            How we works
-            </button>
-            <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Our Works Process</h2>
-            <p class="lg:text-base text-sm font-medium text-p-text">From concept development to design, supervision, and budget planning, we ensure every detail aligns with your vision.</p>
-          </div>
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>                
+            </div>
+          </button>
         </div>
-        <!-- main -->
-         <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          <!-- card -->
-          <div class="card">
-            <div class="card-body p-6 rounded-2xl bg-[#E7C1D3]">
-              <img
-                src="./assets/concept.png"
-                alt="" class="w-12"/>
-              <h2 class="card-title font-black text-xl text-btn-text">Concept</h2>
-              <p class="font-medium text-p-text">
-                Shaping your unique design vision with innovative ideas.</p>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card">
-            <div class="card-body p-6 rounded-2xl bg-[#EFDA6E]">
-              <img
-                src="./assets/flow-chart.png"
-                alt="" class="w-12"/>
-              <h2 class="card-title font-black text-xl text-btn-text">Design Process</h2>
-              <p class="font-medium text-p-text">
-                We transform ideas into detailed plans with creativity and precision.</p>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card">
-            <div class="card-body p-6 rounded-2xl bg-[#A4DAC3]">
-              <img
-                src="./assets/vision.png"
-                alt="" class="w-12"/>
-              <h2 class="card-title font-black text-xl text-btn-text">Supervision</h2>
-              <p class="font-medium text-p-text">
-                We ensure quality and detail through the implementation of your design.</p>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card">
-            <div class="card-body p-6 rounded-2xl bg-[#77AAEA]">
-              <img
-                src="./assets/budget-planning.png"
-                alt="" class="w-12"/>
-              <h2 class="card-title font-black text-xl text-btn-text">Budget Planning</h2>
-              <p class="font-medium text-p-text">
-                Managing costs to achieve your vision within your budget.</p>
-            </div>
-          </div>
-         </div>
-      </section>
-      <!-- portfolio -->
-      <section class="py-8 lg:py-20 lg:bg-white">
-        <div class="container mx-auto px-3">
-          <!-- title box -->
-          <div class="card">
-            <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
-              <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-btn-bg/20 rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+      </div>
+      </div>
+  </header>
+  <main >
+    <!-- design section -->
+    <section class="container mx-auto px-3">
+        <div class=" lg:py-24 py-8 relative">
+          <img src="./assets/Vector.png" alt="" class="w-16 hidden lg:block absolute top-16 -left-5">
+          <div class="lg:flex justify-between gap-10">
+            <!-- hero content --> 
+            <div class="flex-1 text-center lg:text-left">
+              <button class="py-2 px-4 flex text-p-text font-bold text-base bg-white rounded-full items-center gap-2 mb-6 mx-auto lg:mx-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
               </svg>
-              Explore our Latest works
+              About Us
               </button>
-              <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Our Latest Portfolio</h2>
-              <p class="lg:text-base text-sm font-medium text-p-text">Discover our latest projects, showcasing a range of designs that reflect our creativity and expertise.</p>
-            </div>
-          </div>
-          <!-- main -->
-          <div class="gap-4 space-y-4 lg:space-y-0 lg:grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-[230px_230px]">
-            <!-- card 1-->
-            <div class="bg-white card lg:card-side col-start-1 col-end-9  border p-6">
-                <img
-                  src="./assets/img1.png"
-                  alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-2/5 lg:h-[180px]"/>
-              <div class="card-body p-0 space-y-2">
-                <h2 class=" text-2xl font-black text-p-text">Elegance Interiors</h2>
-                <p class="font-medium text-s-text">Welcome to Elegance Interiors, where timeless aesthetics meet modern living. Our expert designers curate harmonious spaces that blend sophistication with comfort.</p>
-                <button class="flex text-p-title font-black text-xl items-center">View Details
-                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                    <!-- icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>                
-                  </div>
-                </button>
+              <h1 class="lg:text-4xl text-3xl text-p-title font-bold ">We design thoughtful,<br> liveable spaces</h1>
+              <p class="py-6 text-p-text font-medium text-sm lg:text-base lg:max-w-xl">
+                Crafting beautiful, functional spaces that reflect your personality, ensuring comfort and style in every detail.
+              </p>
+              <!-- card -->
+              <div class="lg:p-6 p-5 rounded-2xl flex gap-6 bg-white shadow-sm">
+                <figure>
+                  <img
+                    src="./assets/commercial.png"
+                    alt="Movie" class="w-16 shrink-0"/>
+                </figure>
+                <div class="space-y-2 text-left">
+                  <h2 class="font-black text-base lg:text-xl text-p-text">Commercial</h2>
+                  <p class="font-medium text-base text-s-text lg:max-w-80">Designing efficient, stylish commercial spaces.</p>
+                </div>
+              </div>
+              <!-- card -->
+              <div class="lg:p-6 p-5 rounded-2xl flex gap-6 bg-white shadow-sm mt-6">
+                <figure>
+                  <img
+                    src="./assets/residential.png"
+                    alt="Movie" class="w-16 shrink-0"/>
+                </figure>
+                <div class="space-y-2 text-left">
+                  <h2 class="font-black text-base lg:text-xl text-p-text">Residential</h2>
+                  <p class="font-medium text-base text-s-text lg:max-w-80">We design homes that reflect your style and comfort.</p>
+                </div>
               </div>
             </div>
-            <!-- card 2-->
-            <div class="bg-white card col-start-9 col-end-13 w-full border p-6 ">
-              <figure>
-                <img
-                  src="./assets/img2.png"
-                  alt="house" class="w-full lg:h-[180px] lg:obejct-cover"/>
-              </figure>
-            </div>
-            <!-- card extra-->
-            <div class="bg-white lg:hidden card lg:card-side border p-6">
-              <figure>
-                <img
-                  src="./assets/img5.png"
-                  alt="house" class="w-full"/>
-              </figure>
-            </div>
-            <!-- card 4-->
-            <div class="bg-white row-start-2 col-start-4 col-end-10 card lg:card-side border p-6">
-                <img
-                  src="./assets/img4.png"
-                  alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-1/2 lg:h-[180px]"/>
-              <div class="card-body p-0 space-y-2">
-                <h2 class="card-title text-2xl font-black text-p-text">Serenity Haven</h2>
-                <p class="font-medium text-s-text">Wellcome to Serenity Haven. A modern oasis blending tranquility and sophistication.</p>
-                <button class="flex text-p-title font-black text-xl items-center">View Details
-                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                    <!-- icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>                
-                  </div>
-                </button>
-              </div>
-            </div>
-            <!-- card 3-->
-            <div class="bg-white card row-start-2 col-start-1 col-end-4 w-full border p-6">
-              <figure>
-                <img
-                  src="./assets/img3.png"
-                  alt="house" class="w-full lg:h-[180px]"/>
-              </figure>
-            </div>
-            <!-- card 5-->
-            <div class="bg-white w-full row-start-2 col-start-10 col-end-13 card border p-6">
-              <figure>
-                <img
-                  src="./assets/img5.png"
-                  alt="house" class="w-full lg:h-[180px]"/>
-              </figure>
-            </div>
+            <img
+              src="./assets/Rectangle.png"
+              class="h-56 lg:h-full w-full object-cover rounded-lg lg:max-w-xl mt-6 lg:mt-0" />
           </div>
         </div>
-      </section>
-      <!-- news section -->
-      <section class="lg:my-20 my-8 container mx-auto px-3">
+    </section>
+    <!-- info chart -->
+    <section class="container mx-auto px-3">
+    <div class="p-8 rounded-3xl bg-white grid grid-cols-1 lg:grid-cols-4">
+      <!-- card -->
+      <div class="card p-6">
+        <figure class="pt-10">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-s-text">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+          </svg>              
+        </figure>
+        <div class="card-body items-center text-center p-0">
+          <h2 class="card-title font-black text-4xl text-p-text mt-2">235+</h2>
+          <p class="font-medium text-s-text">Happy Client Review</p>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="card p-6">
+        <figure class="pt-10">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-s-text">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+          </svg>                        
+        </figure>
+        <div class="card-body items-center text-center p-0">
+          <h2 class="card-title font-black text-4xl text-p-text mt-2">50+</h2>
+          <p class="font-medium text-s-text">Work Departments</p>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="card p-6">
+        <figure class="pt-10">
+            <i class="fa-solid fa-users text-s-text text-4xl"></i>              
+        </figure>
+        <div class="card-body items-center text-center p-0">
+          <h2 class="card-title font-black text-4xl text-p-text mt-2">30k+</h2>
+          <p class="font-medium text-s-text">Our Happy Client</p>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="card p-6">
+        <figure class="pt-10">
+          <i class="fa-solid fa-user text-s-text text-4xl"></i>
+        </figure>
+        <div class="card-body items-center text-center p-0">
+          <h2 class="card-title font-black text-4xl text-p-text mt-2">307+</h2>
+          <p class="font-medium text-s-text">Staff Members</p>
+        </div>
+      </div>
+    </div>
+    </section>
+      <!-- work process -->
+    <section class="lg:my-20 my-8 container mx-auto px-3">
+      <!-- title box -->
+      <div class="card">
+        <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
+          <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-white rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          How we works
+          </button>
+          <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Our Works Process</h2>
+          <p class="lg:text-base text-sm font-medium text-p-text">From concept development to design, supervision, and budget planning, we ensure every detail aligns with your vision.</p>
+        </div>
+      </div>
+      <!-- main -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <!-- card -->
+        <div class="card">
+          <div class="card-body p-6 rounded-2xl bg-[#E7C1D3]">
+            <img
+              src="./assets/concept.png"
+              alt="" class="w-12"/>
+            <h2 class="card-title font-black text-xl text-btn-text">Concept</h2>
+            <p class="font-medium text-p-text">
+              Shaping your unique design vision with innovative ideas.</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-body p-6 rounded-2xl bg-[#EFDA6E]">
+            <img
+              src="./assets/flow-chart.png"
+              alt="" class="w-12"/>
+            <h2 class="card-title font-black text-xl text-btn-text">Design Process</h2>
+            <p class="font-medium text-p-text">
+              We transform ideas into detailed plans with creativity and precision.</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-body p-6 rounded-2xl bg-[#A4DAC3]">
+            <img
+              src="./assets/vision.png"
+              alt="" class="w-12"/>
+            <h2 class="card-title font-black text-xl text-btn-text">Supervision</h2>
+            <p class="font-medium text-p-text">
+              We ensure quality and detail through the implementation of your design.</p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-body p-6 rounded-2xl bg-[#77AAEA]">
+            <img
+              src="./assets/budget-planning.png"
+              alt="" class="w-12"/>
+            <h2 class="card-title font-black text-xl text-btn-text">Budget Planning</h2>
+            <p class="font-medium text-p-text">
+              Managing costs to achieve your vision within your budget.</p>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- portfolio -->
+    <section class="py-8 lg:py-20 lg:bg-white">
+      <div class="container mx-auto px-3">
         <!-- title box -->
         <div class="card">
           <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
@@ -385,112 +297,237 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
             </svg>
-            Rinterio News
+            Explore our Latest works
             </button>
-            <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Read Our Articles and News</h2>
-            <p class="lg:text-base text-sm font-medium text-p-text">Stay informed with our latest insights, design tips, and industry news. Discover trends and inspiration.</p>
+            <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Our Latest Portfolio</h2>
+            <p class="lg:text-base text-sm font-medium text-p-text">Discover our latest projects, showcasing a range of designs that reflect our creativity and expertise.</p>
           </div>
         </div>
-        <!-- main content -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <!-- card -->
-          <div class="card p-6 bg-white shadow-sm">
-            <img
-              src="./assets/article1.png"
-              alt="Shoes" class="rounded-xl"/>
-              <div class="card-body p-0 mt-4">
-                <div class="flex gap-3 items-center">
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
-                    </svg>
-                    <p>August23, 2024</p>
-                  </div>
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <i class="fa-regular fa-user text-base"></i>
-                    <p>By Admin</p>
-                  </div>
+        <!-- main -->
+        <div class="gap-4 space-y-4 lg:space-y-0 lg:grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-[230px_230px]">
+          <!-- card 1-->
+          <div class="bg-white card lg:card-side col-start-1 col-end-9  border p-6">
+              <img
+                src="./assets/img1.png"
+                alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-2/5 lg:h-[180px]"/>
+            <div class="card-body p-0 space-y-2">
+              <h2 class=" text-2xl font-black text-p-text">Elegance Interiors</h2>
+              <p class="font-medium text-s-text">Welcome to Elegance Interiors, where timeless aesthetics meet modern living. Our expert designers curate harmonious spaces that blend sophistication with comfort.</p>
+              <button class="flex text-p-title font-black text-xl items-center">View Details
+                <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                  <!-- icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>                
                 </div>
-                <h2 class=" text-xl font-black text-p-text">Modern Coastal Oasis: A New Benchmark in Luxury Living</h2>
-                <p class="font-medium text-s-text">Explore this stunning coastal residence, where cutting-edge design meets serene beachfront living, setting a new standard for luxury homes.</p>
-                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
-                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                    <!-- icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>                
-                  </div>
-                </button>
-              </div>
+              </button>
+            </div>
           </div>
-          <!-- card -->
-          <div class="card p-6 bg-white shadow-sm">
-            <img
-              src="./assets/article2.png"
-              alt="Shoes" class="rounded-xl"/>
-              <div class="card-body p-0 mt-4">
-                <div class="flex gap-3 items-center">
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
-                    </svg>
-                    <p>August22, 2024</p>
-                  </div>
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <i class="fa-regular fa-user text-base"></i>
-                    <p>By Admin</p>
-                  </div>
-                </div>
-                <h2 class=" text-xl font-black text-p-text">Sleek Minimalist Retreat: Redefining Modern Architecture</h2>
-                <p class="font-medium text-s-text">Discover this modern masterpiece, where minimalist design meets luxury, creating a serene and stylish living space.</p>
-                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
-                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                    <!-- icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>                
-                  </div>
-                </button>
-              </div>
+          <!-- card 2-->
+          <div class="bg-white card col-start-9 col-end-13 w-full border p-6 ">
+            <figure>
+              <img
+                src="./assets/img2.png"
+                alt="house" class="w-full lg:h-[180px] lg:obejct-cover"/>
+            </figure>
           </div>
-          <!-- card -->
-          <div class="card p-6 bg-white shadow-sm">
-            <img
-              src="./assets/article3.png"
-              alt="Shoes" class="rounded-xl"/>
-              <div class="card-body p-0 mt-4">
-                <div class="flex gap-3 items-center">
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
-                    </svg>
-                    <p>August5, 2024</p>
-                  </div>
-                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
-                    <i class="fa-regular fa-user text-base"></i>
-                    <p>By Admin</p>
-                  </div>
+          <!-- card extra-->
+          <div class="bg-white lg:hidden card lg:card-side border p-6">
+            <figure>
+              <img
+                src="./assets/img5.png"
+                alt="house" class="w-full"/>
+            </figure>
+          </div>
+          <!-- card 4-->
+          <div class="bg-white row-start-2 col-start-4 col-end-10 card lg:card-side border p-6">
+              <img
+                src="./assets/img4.png"
+                alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-1/2 lg:h-[180px]"/>
+            <div class="card-body p-0 space-y-2">
+              <h2 class="card-title text-2xl font-black text-p-text">Serenity Haven</h2>
+              <p class="font-medium text-s-text">Wellcome to Serenity Haven. A modern oasis blending tranquility and sophistication.</p>
+              <button class="flex text-p-title font-black text-xl items-center">View Details
+                <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                  <!-- icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>                
                 </div>
-                <h2 class=" text-xl font-black text-p-text">Luxurious Tropical Escape: Blending Modern Design with Natural Beauty</h2>
-                <p class="font-medium text-s-text">Explore this exquisite tropical villa, where modern architecture meets lush surroundings, offering the perfect blend of luxury and nature.</p>
-                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
-                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
-                    <!-- icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>                
-                  </div>
-                </button>
-              </div>
+              </button>
+            </div>
+          </div>
+          <!-- card 3-->
+          <div class="bg-white card row-start-2 col-start-1 col-end-4 w-full border p-6">
+            <figure>
+              <img
+                src="./assets/img3.png"
+                alt="house" class="w-full lg:h-[180px]"/>
+            </figure>
+          </div>
+          <!-- card 5-->
+          <div class="bg-white w-full row-start-2 col-start-10 col-end-13 card border p-6">
+            <figure>
+              <img
+                src="./assets/img5.png"
+                alt="house" class="w-full lg:h-[180px]"/>
+            </figure>
           </div>
         </div>
-      </section>
-      <!-- discuss section -->
-      <section class="bg-contact-bg bg-cover border-y-4 lg:border-y-8 border-white">
-        <div class="lg:py-20 py-8 max-w-4xl mx-auto px-3">
-          
+      </div>
+    </section>
+    <!-- news section -->
+    <section class="lg:my-20 my-8 container mx-auto px-3">
+      <!-- title box -->
+      <div class="card">
+        <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
+          <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-btn-bg/20 rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          Rinterio News
+          </button>
+          <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Read Our Articles and News</h2>
+          <p class="lg:text-base text-sm font-medium text-p-text">Stay informed with our latest insights, design tips, and industry news. Discover trends and inspiration.</p>
         </div>
-      </section>
-    </main>
+      </div>
+      <!-- main content -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- card -->
+        <div class="card p-6 bg-white shadow-sm">
+          <img
+            src="./assets/article1.png"
+            alt="Shoes" class="rounded-xl"/>
+            <div class="card-body p-0 mt-4">
+              <div class="flex gap-3 items-center">
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                  </svg>
+                  <p>August23, 2024</p>
+                </div>
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <i class="fa-regular fa-user text-base"></i>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class=" text-xl font-black text-p-text">Modern Coastal Oasis: A New Benchmark in Luxury Living</h2>
+              <p class="font-medium text-s-text">Explore this stunning coastal residence, where cutting-edge design meets serene beachfront living, setting a new standard for luxury homes.</p>
+              <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                  <!-- icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>                
+                </div>
+              </button>
+            </div>
+        </div>
+        <!-- card -->
+        <div class="card p-6 bg-white shadow-sm">
+          <img
+            src="./assets/article2.png"
+            alt="Shoes" class="rounded-xl"/>
+            <div class="card-body p-0 mt-4">
+              <div class="flex gap-3 items-center">
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                  </svg>
+                  <p>August22, 2024</p>
+                </div>
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <i class="fa-regular fa-user text-base"></i>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class=" text-xl font-black text-p-text">Sleek Minimalist Retreat: Redefining Modern Architecture</h2>
+              <p class="font-medium text-s-text">Discover this modern masterpiece, where minimalist design meets luxury, creating a serene and stylish living space.</p>
+              <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                  <!-- icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>                
+                </div>
+              </button>
+            </div>
+        </div>
+        <!-- card -->
+        <div class="card p-6 bg-white shadow-sm">
+          <img
+            src="./assets/article3.png"
+            alt="Shoes" class="rounded-xl"/>
+            <div class="card-body p-0 mt-4">
+              <div class="flex gap-3 items-center">
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                  </svg>
+                  <p>August5, 2024</p>
+                </div>
+                <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                  <i class="fa-regular fa-user text-base"></i>
+                  <p>By Admin</p>
+                </div>
+              </div>
+              <h2 class=" text-xl font-black text-p-text">Luxurious Tropical Escape: Blending Modern Design with Natural Beauty</h2>
+              <p class="font-medium text-s-text">Explore this exquisite tropical villa, where modern architecture meets lush surroundings, offering the perfect blend of luxury and nature.</p>
+              <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                  <!-- icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>                
+                </div>
+              </button>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- discuss section -->
+    <section class="bg-contact-bg bg-opacity-50 bg-cover bg-center border-y-4 lg:border-y-8 border-white">
+      <div class="lg:py-20 py-8 max-w-4xl mx-auto px-3">
+        <!-- title box -->
+      <div class="card">
+        <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
+          <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-btn-bg/20 rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          Let's Connect
+          </button>
+          <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Let’s Discuss Next Project</h2>
+          <p class="lg:text-base text-sm font-medium text-p-text">We’re ready to bring your vision to life. Let's start planning your dream space today.</p>
+        </div>
+      </div>
+      <!-- main content -->
+      <div class="space-y-6">
+        <!-- forms -->
+        <div class="lg:flex gap-6 lg:space-y-0 space-y-6">
+          <input type="text" placeholder="First Name*" class="input w-full rounded-full border border-gray-200 p-5 text-base font-medium text-neutral-400" />
+          <input type="text" placeholder="Last Name*" class="input w-full rounded-full border border-gray-200 p-5 text-base font-medium text-neutral-400" />
+        </div>
+        <!-- forms -->
+        <div class="lg:flex gap-6 lg:space-y-0 space-y-6">
+          <input type="text" placeholder="Phone Number*" class="input w-full rounded-full border border-gray-200 p-5 text-base font-medium text-neutral-400" />
+          <input type="text" placeholder="Email Number*" class="input w-full rounded-full border border-gray-200 p-5 text-base font-medium text-neutral-400" />
+        </div>
+        <!-- text fild -->
+        <textarea class="textarea w-full rounded-3xl border border-gray-200 p-5 text-base font-medium text-neutral-400 h-60" placeholder="Write your message here"></textarea>
+        <!-- button -->
+        <button class="py-3 px-5 w-full flex justify-center text-btn-text font-black text-xl bg-btn-bg rounded-full items-center">Send Mail
+          <div class="p-2 bg-btn-text text-white rounded-full ml-2">
+            <!-- icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>                
+          </div>
+        </button>
+      </div>
+      </div>
+    </section>
+  </main>
+  
 </body>
 </html>
