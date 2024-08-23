@@ -11,6 +11,8 @@
         tailwind.config = {
           theme: {
             extend: {
+              backgroundImage: {
+                'contact-bg': "url('./assets/bg.jpg')"},
               colors: {
                 clifford: '#da373d',
                 'btn-bg': '#ABEF5F',
@@ -295,7 +297,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
               </svg>
-              How we works
+              Explore our Latest works
               </button>
               <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Our Latest Portfolio</h2>
               <p class="lg:text-base text-sm font-medium text-p-text">Discover our latest projects, showcasing a range of designs that reflect our creativity and expertise.</p>
@@ -341,7 +343,7 @@
             <div class="bg-white row-start-2 col-start-4 col-end-10 card lg:card-side border p-6">
                 <img
                   src="./assets/img4.png"
-                  alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-2/5 lg:h-[180px]"/>
+                  alt="house" class="w-full mr-0 lg:mr-6 mb-6 lg:mb-0 lg:w-1/2 lg:h-[180px]"/>
               <div class="card-body p-0 space-y-2">
                 <h2 class="card-title text-2xl font-black text-p-text">Serenity Haven</h2>
                 <p class="font-medium text-s-text">Wellcome to Serenity Haven. A modern oasis blending tranquility and sophistication.</p>
@@ -372,6 +374,121 @@
               </figure>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- news section -->
+      <section class="lg:my-20 my-8 container mx-auto px-3">
+        <!-- title box -->
+        <div class="card">
+          <div class="mx-auto max-w-2xl card-body items-center text-center p-0 mb-8">
+            <button class="w-fit py-2 px-4 flex text-p-text font-bold text-base bg-btn-bg/20 rounded-full items-center gap-2 mb-1 mx-auto lg:mx-0">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+            Rinterio News
+            </button>
+            <h2 class="card-title text-3xl lg:text-4xl font-bold text-p-title mb-3">Read Our Articles and News</h2>
+            <p class="lg:text-base text-sm font-medium text-p-text">Stay informed with our latest insights, design tips, and industry news. Discover trends and inspiration.</p>
+          </div>
+        </div>
+        <!-- main content -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- card -->
+          <div class="card p-6 bg-white shadow-sm">
+            <img
+              src="./assets/article1.png"
+              alt="Shoes" class="rounded-xl"/>
+              <div class="card-body p-0 mt-4">
+                <div class="flex gap-3 items-center">
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                    </svg>
+                    <p>August23, 2024</p>
+                  </div>
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <i class="fa-regular fa-user text-base"></i>
+                    <p>By Admin</p>
+                  </div>
+                </div>
+                <h2 class=" text-xl font-black text-p-text">Modern Coastal Oasis: A New Benchmark in Luxury Living</h2>
+                <p class="font-medium text-s-text">Explore this stunning coastal residence, where cutting-edge design meets serene beachfront living, setting a new standard for luxury homes.</p>
+                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                    <!-- icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>                
+                  </div>
+                </button>
+              </div>
+          </div>
+          <!-- card -->
+          <div class="card p-6 bg-white shadow-sm">
+            <img
+              src="./assets/article2.png"
+              alt="Shoes" class="rounded-xl"/>
+              <div class="card-body p-0 mt-4">
+                <div class="flex gap-3 items-center">
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                    </svg>
+                    <p>August22, 2024</p>
+                  </div>
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <i class="fa-regular fa-user text-base"></i>
+                    <p>By Admin</p>
+                  </div>
+                </div>
+                <h2 class=" text-xl font-black text-p-text">Sleek Minimalist Retreat: Redefining Modern Architecture</h2>
+                <p class="font-medium text-s-text">Discover this modern masterpiece, where minimalist design meets luxury, creating a serene and stylish living space.</p>
+                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                    <!-- icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>                
+                  </div>
+                </button>
+              </div>
+          </div>
+          <!-- card -->
+          <div class="card p-6 bg-white shadow-sm">
+            <img
+              src="./assets/article3.png"
+              alt="Shoes" class="rounded-xl"/>
+              <div class="card-body p-0 mt-4">
+                <div class="flex gap-3 items-center">
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                    </svg>
+                    <p>August5, 2024</p>
+                  </div>
+                  <div class="font-medium text-sm text-s-text flex items-center gap-2">
+                    <i class="fa-regular fa-user text-base"></i>
+                    <p>By Admin</p>
+                  </div>
+                </div>
+                <h2 class=" text-xl font-black text-p-text">Luxurious Tropical Escape: Blending Modern Design with Natural Beauty</h2>
+                <p class="font-medium text-s-text">Explore this exquisite tropical villa, where modern architecture meets lush surroundings, offering the perfect blend of luxury and nature.</p>
+                <button class="flex text-p-title font-bold text-lg items-center mt-1">Read More
+                  <div class="p-2 bg-btn-bg text-btn-text rounded-full ml-2">
+                    <!-- icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>                
+                  </div>
+                </button>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- discuss section -->
+      <section class="bg-contact-bg bg-cover border-y-4 lg:border-y-8 border-white">
+        <div class="lg:py-20 py-8 max-w-4xl mx-auto px-3">
+          
         </div>
       </section>
     </main>
